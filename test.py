@@ -3,11 +3,9 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 load_dotenv()
-DB_PATH = os.getenv("DB_PATH")
-conn = sqlite3.connect("database.db")
-cursor = conn.cursor()
-
-
-cursor.execute("SELECT * FROM Corpus")
-print(cursor.fetchall())
-conn.close()
+import tensorflow as tf
+model = tf.keras.models.load_model("models/final.h5")
+if model:
+    print("success")
+else:
+    print('Failure')
