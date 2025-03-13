@@ -5,3 +5,5 @@ matplotlib
 scikit-learn
 tensorflow
 tensorboard
+openpyxl
+nltk
