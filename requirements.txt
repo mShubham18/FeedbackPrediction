@@ -7,3 +7,5 @@ tensorflow
 tensorboard
 openpyxl
 nltk
+flask
+streamlit
