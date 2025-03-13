@@ -9,3 +9,6 @@ openpyxl
 nltk
 flask
 streamlit
+pymongo[srv]==3.12
+python-dotenv
+tqdm

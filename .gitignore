@@ -1,1 +1,4 @@
 feedpred
+.env
+data
+models
