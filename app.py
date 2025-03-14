@@ -26,6 +26,40 @@ with open(VECTORIZER_PATH,"rb") as file:
 
 st.title("Welcome to Feedback Prediction System")
 
+# Adding instructions section
+with st.expander("📋 Instructions", expanded=True):
+    st.markdown("""
+    ### How to Use This System
+    
+    1. **Prepare Your Data**:
+       - Create a CSV file with a single column containing customer reviews
+       - The column name doesn't matter as it will be automatically renamed
+       - Make sure your CSV file is properly formatted
+    
+    2. **Upload Your File**:
+       - Click the "Browse files" button below
+       - Select your CSV file
+       - The system will automatically process the reviews
+    
+    3. **Get Results**:
+       - After processing, you'll see a preview of the results
+       - Click the "Download CSV" button to save the predictions
+       - The output file will contain both the original messages and their predicted sentiments
+    
+    4. **Reset**:
+       - Use the "Reset" button to clear the current session and start over
+    
+    ### Example CSV Format:
+    ```
+    reviews
+    "Great service, very satisfied!"
+    "Could be better"
+    "Average experience"
+    ```
+    """)
+
+st.markdown("---")  # Adding a separator
+
 data = st.file_uploader("Please Upload a file",type="csv")
 if data is not None:
     df = pd.read_csv(data)
