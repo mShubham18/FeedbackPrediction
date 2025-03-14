@@ -11,6 +11,7 @@ import tensorflow as tf
 from dotenv import load_dotenv
 import nltk
 nltk.download("stopwords")
+nltk.download("wordnet")
 load_dotenv()
 lemmatizer = WordNetLemmatizer()
 
