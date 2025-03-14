@@ -1,6 +1,6 @@
 # Feedback Prediction System
 
-A machine learning-based system that analyzes customer feedback and predicts sentiment (positive, negative, or neutral) using Natural Language Processing (NLP) techniques.
+A machine learning-based system that analyzes customer feedback and predicts sentiment (positive, negative, or neutral) using Natural Language Processing (NLP) and Deep Learning techniques.
 
 ## Features
 
@@ -15,11 +15,16 @@ A machine learning-based system that analyzes customer feedback and predicts sen
 - Python 3.12+
 - Required packages (install using `pip install -r requirements.txt`)
 
+## Quick Start
+
+You can access the deployed application directly at:
+[Customer Feedback Classification App](https://customer-feedback-classification.streamlit.app/)
+
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/mShubham18/FeedbackPrediction.git
 cd FeedbackPrediction
 ```
 
@@ -61,4 +66,6 @@ The system uses:
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests! 
+Feel free to submit issues and enhancement requests!
+
+Happy Coding ;)
