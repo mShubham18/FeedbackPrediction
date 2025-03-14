@@ -9,7 +9,8 @@ import re
 from nltk.corpus import stopwords
 import tensorflow as tf
 from dotenv import load_dotenv
-
+import nltk
+nltk.download("stopwords")
 load_dotenv()
 lemmatizer = WordNetLemmatizer()
 
