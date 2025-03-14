@@ -18,7 +18,7 @@ A machine learning-based system that analyzes customer feedback and predicts sen
 ## Quick Start
 
 You can access the deployed application directly at:
-[Customer Feedback Classification App](https://customer-feedback-classification.streamlit.app/)
+[Customer Feedback Classification App](https://feedback-classification.streamlit.app/)
 
 ## Installation
 
